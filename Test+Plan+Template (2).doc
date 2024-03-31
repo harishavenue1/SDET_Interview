@@ -1,0 +1,518 @@
+Date: Fri, 26 Nov 2021 11:17:52 +0000 (UTC)
+Message-ID: <1558821408.101880.1637925472673@ip-10-0-11-35.ec2.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_101879_2128196191.1637925472672"
+
+------=_Part_101879_2128196191.1637925472672
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Test Plan Template</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Test Plan Template</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1637925472658 {padding: 0px;}
+div.rbtoc1637925472658 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1637925472658 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1637925472658">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#TestPlanTemplate-Introduction">Introduction</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#TestPlanTemplate-Purpose">Purpose</a></li>=20
+<li><a href=3D"#TestPlanTemplate-FeatureOverview">Feature Overview</a></li>=
+=20
+<li><a href=3D"#TestPlanTemplate-FeatureOwners">Feature Owners</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#TestPlanTemplate-TestStrategy">Test Strategy</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#TestPlanTemplate-Scope">Scope</a></li>=20
+<li><a href=3D"#TestPlanTemplate-AreasofTesting">Areas of Testing</a></li>=
+=20
+<li><a href=3D"#TestPlanTemplate-TestSchedule">Test Schedule</a></li>=20
+<li><a href=3D"#TestPlanTemplate-ExitCriteria">Exit Criteria</a></li>=20
+<li><a href=3D"#TestPlanTemplate-Risks&amp;Mitigation">Risks &amp; Mitigati=
+on</a></li>=20
+<li><a href=3D"#TestPlanTemplate-TestDependency">Test Dependency</a></li>=
+=20
+</ul> </li>=20
+<li><a href=3D"#TestPlanTemplate-TestManagement">Test Management</a></li>=
+=20
+<li><a href=3D"#TestPlanTemplate-PeerQATeamTestplans">Peer QA Team Testplan=
+s</a></li>=20
+</ul>=20
+</div>
+<p></p>
+<p>&lt;Document History&gt;</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Version</th>
+<th class=3D"confluenceTh">Date</th>
+<th class=3D"confluenceTh">Author</th>
+<th class=3D"confluenceTh">Description of Change</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>&lt;Reviewers&gt;</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Role</th>
+<th class=3D"confluenceTh">Name</th>
+<th class=3D"confluenceTh">Review Date</th>
+<th class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br>&lt;References&gt;</p>
+<h2 id=3D"TestPlanTemplate-Introduction">Introduction</h2>
+<h3 id=3D"TestPlanTemplate-Purpose">Purpose</h3>
+<h3 id=3D"TestPlanTemplate-FeatureOverview">Feature Overview</h3>
+<h3 id=3D"TestPlanTemplate-FeatureOwners">Feature Owners</h3>
+<p>(if more than 1 Dev team involved)</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Feature</th>
+<th class=3D"confluenceTh">Owner/Feature Team</th>
+<th class=3D"confluenceTh">PoC</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h2 id=3D"TestPlanTemplate-TestStrategy">Test Strategy</h2>
+<h3 id=3D"TestPlanTemplate-Scope">Scope</h3>
+<ul>
+<li><h4 id=3D"TestPlanTemplate-In-scope">In-scope</h4></li>
+<li><h4 id=3D"TestPlanTemplate-Outofscope">Out of scope</h4></li>
+</ul>
+<h3 id=3D"TestPlanTemplate-AreasofTesting">Areas of Testing</h3>
+<ul>
+<li><h4 id=3D"TestPlanTemplate-BAT/Sanity">BAT/Sanity</h4>&lt;Describe what=
+ this area of testing will cover and target.&gt;</li>
+<li><h4 id=3D"TestPlanTemplate-Functionaltests">Functional tests</h4></li>
+<li><h4 id=3D"TestPlanTemplate-Performance/KPIs">Performance/KPIs</h4></li>
+<li><h4 id=3D"TestPlanTemplate-Stress/Stability">Stress/Stability</h4></li>
+<li><h4 id=3D"TestPlanTemplate-Negative">Negative</h4></li>
+<li><h4 id=3D"TestPlanTemplate-White-box/API-leveltesting">White-box /API-l=
+evel testing</h4></li>
+<li><strong>Security/Privacy</strong></li>
+<li><strong>Adhoc testing</strong></li>
+<li><strong>Localization/Internationalization Testing</strong></li>
+<li><strong>Power/Thermal testing</strong></li>
+<li><strong>Memory consumption/CPU usage testing</strong></li>
+<li><h4 id=3D"TestPlanTemplate-AutomationStrategy">Automation Strategy</h4>=
+</li>
+</ul>
+<h3 id=3D"TestPlanTemplate-TestSchedule">Test Schedule</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 86.0px;">
+<col style=3D"width: 246.0px;">
+<col style=3D"width: 231.0px;">
+<col style=3D"width: 159.0px;">
+<col style=3D"width: 129.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Milestone</th>
+<th colspan=3D"1" class=3D"confluenceTh">Code Completion Scheduled Date</th=
+>
+<th class=3D"confluenceTh">Areas of Testing/ Test coverage</th>
+<th colspan=3D"1" class=3D"confluenceTh">QA Test Cycle Starts</th>
+<th class=3D"confluenceTh">Time to Execute</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&lt;Alpha/ XYZ&gt;</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ex. &lt;BAT&gt; , 100% P0, 80% P1<=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd">&lt;date&gt;</td>
+<td colspan=3D"1" class=3D"confluenceTd">X weeks</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"TestPlanTemplate-ExitCriteria">Exit Criteria</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Milestone Name</th>
+<th class=3D"confluenceTh">Coverage &amp; Criteria</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(51,102,255);"><em>E=
+x. &lt;BETA&gt;</em></span></p></td>
+<td class=3D"confluenceTd"><p><em><span style=3D"color: rgb(51,102,255);">E=
+x. &lt;Test Coverage: 100% P0,100% P1, 100% P2, 100% P3</span></em></p><p><=
+em><span style=3D"color: rgb(51,102,255);">No P0 , P0, P2 or P3 Blockers&gt=
+;</span></em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>(if more than one QA feature owner, provide the exit criteria details of=
+ each team)</p>
+<h3 id=3D"TestPlanTemplate-Risks&amp;Mitigation">Risks &amp; Mitigation</h3=
+>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Risk Area</th>
+<th class=3D"confluenceTh">Probability</th>
+<th class=3D"confluenceTh">Impact</th>
+<th class=3D"confluenceTh">Mitigation</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,255);"><em>Ex: No =
+headcount available to do API-testing</em> </span></td>
+<td class=3D"confluenceTd"><em><span style=3D"color: rgb(0,0,255);">H</span=
+></em></td>
+<td class=3D"confluenceTd"><em><span style=3D"color: rgb(0,0,255);">H</span=
+></em></td>
+<td class=3D"confluenceTd"><em><span style=3D"color: rgb(0,0,255);">Ex: We =
+might have an SDET on-loan for a few weeks</span></em></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,0,255)=
+;"><em>Ex: Test Environment instability (devo)</em></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,0,255)=
+;"><em>H</em></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,0,255)=
+;"><em>H</em></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,0,255)=
+;"><em>None</em></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>(H- High, M- Medium , L- low)</p>
+<h3 id=3D"TestPlanTemplate-TestDependency">Test Dependency</h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 59.=
+4853%;">
+<colgroup>
+<col style=3D"width: 17.4814%;">
+<col style=3D"width: 6.03342%;">
+<col style=3D"width: 11.6027%;">
+<col style=3D"width: 64.5111%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Dependency</th>
+<th class=3D"confluenceTh">ETA</th>
+<th class=3D"confluenceTh">Owner</th>
+<th class=3D"confluenceTh">Status</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em><span style=3D"color: rgb(0,0,255);">Ex: &lt=
+;XYZ&gt;'s team needs to have their APIs in place , before our QA team can =
+start testing</span></em></td>
+<td class=3D"confluenceTd"><em><span style=3D"color: rgb(0,0,255);">&lt;dat=
+e&gt;</span></em></td>
+<td class=3D"confluenceTd"><em><span style=3D"color: rgb(0,0,255);">&lt;XYZ=
+ team&gt;</span></em></td>
+<td class=3D"confluenceTd"><em><span style=3D"color: rgb(0,0,255);">Ex: In =
+progress/Delayed</span></em></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"TestPlanTemplate-TestManagement">Test Management</h2>
+<p>&lt;Links to TestRail&gt;</p>
+<p>&lt;Links to API-level testing wiki/gerrit&gt;</p>
+<h2 id=3D"TestPlanTemplate-PeerQATeamTestplans">Peer QA Team Testplans</h2>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_101879_2128196191.1637925472672--
